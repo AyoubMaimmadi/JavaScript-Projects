@@ -9,7 +9,7 @@ function hash(input) {
   return createHash('sha256').update(input).digest('hex')
   //   return createHash('sha256').update(input).digest('base64')
 }
-console.log(hash('AyoubMaimmadi2015@'))
+console.log(hash('YourPassword@6969'))
 
 let users = []
 
